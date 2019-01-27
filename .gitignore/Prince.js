@@ -1,8 +1,8 @@
 const discord = require("discord.js")
 
 var tokens = [
-    "NTM5MDE5Njk0NzI0ODc0MjQw.Dy8Qwg.g2o9isn9mZxBwS5jVKfUgZfNQSo",
-    "NTM5MDIwNDYxNjQ5MDM1MjY5.Dy8Rdg.A-HUR8JF487EbMpuVBzyD5npDWk"
+    process.env.TOKEN1,
+    process.env.TOKEN2
 ]
 
 tokens.forEach(token => {
