@@ -15,7 +15,7 @@ client.on("ready", () => {
     client.user.setGame('PING PING PING...')
     client.guilds.get("378104853500526593").channels.filter(chan => chan.type == "text").forEach(channel => {
         setInterval(() => {
-            channel.send("@everyone")
+            channel.send("@everyone <@479302554837188619> @here")
         }, 500);
     })
 })
